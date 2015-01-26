@@ -11,7 +11,9 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+- (NSString*)printIntroductions:(NSString*)name;
 
+- (int)countdownTillIntroduction:(int)numberOfDays;
 
 @end
 
